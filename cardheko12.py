@@ -53,7 +53,7 @@ else:
     Insurance_c=0
 
 
-Kms_Driven = st.number_input('What is distance completed by the car in Kilometers ?', 0.00, 500000.00, step=1000.00, key ='drived')
+Kms_Driven = st.number_input('What is distance completed by the car in Kilometers ?', 0.00, 500000.00, step=10000.00, key ='drived')
 
 Owner = st.radio("The number of owners the car had previously ?", (1, 2,3,4,5), key='owner')
 
